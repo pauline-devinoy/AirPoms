@@ -1,0 +1,46 @@
+body {
+    font-family: Lora;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1687A7;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: rgb(100, 100, 100);
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Bona Nova SC, sans-serif;
+    color: white;
+}
+
+.navbar .menu {
+    display: flex;
+}
